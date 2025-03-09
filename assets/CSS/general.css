@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Albert Sans", sans-serif;
+  color: #333;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  transform: scale(1);
+  vertical-align: middle;
+}
+
+.padding-container {
+  padding: 2rem 4rem;
+}
+
+.container {
+  /* width: 100%; */
+  padding: 0 1.5rem;
+  margin: auto;
+  max-width: 1540px;
+}
+
+.secondary-heading {
+  font-size: 4.2rem;
+  font-weight: 400;
+  line-height: 2;
+  color: #444;
+}
+
+.tertiary-heading {
+  width: 100%;
+  text-align: start;
+  font-size: 4.2rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #444;
+}
+
+.quinary-heading {
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-bottom: 1.4rem;
+  color: #444;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-gap-md {
+  gap: 3rem;
+}
+
+.grid-gap-sm {
+  gap: 1.5rem;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.menu-list li {
+  text-align: start;
+  color: #555 !important;
+}
+
+ul li:last-child {
+  margin-bottom: 0;
+}
+
+.sticky {
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 32px 64px rgba(0, 0, 0, 0.3);
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.border-top {
+  border-top: 1px solid #ebebeb;
+}
+
+.margin-bottom-sm {
+  margin-bottom: 2.4rem;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem;
+}
+
+.margin-bottom-lg {
+  margin-bottom: 8rem;
+}
+
+.margin-top-md {
+  margin-top: 3rem;
+}
+
+.grid-col-gap-md {
+  gap: 2.4rem;
+}
+
+.position-relative {
+  position: relative;
+}
+
+/***************************************/
+/* Icon::after styling */
+/***************************************/
+
+.heart::after,
+.cart::after,
+.menu-heart::after,
+.menu-cart::after {
+  content: "0";
+  position: absolute;
+  padding: 0.2rem 0.5rem;
+  color: #fff;
+  border-radius: 99rem;
+  background-color: #c36161;
+  font-size: 1.4rem;
+}
+
+.heart::after {
+  top: -30%;
+  right: -40%;
+}
+
+.cart::after {
+  top: -30%;
+  right: -35%;
+}
+/**********************************/
+
+.display-flex {
+  display: flex;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
+/* For testing purpose only */
+main img {
+  display: block;
+}
