@@ -1,5 +1,6 @@
 // let slides = document.getElementsByClassName("slide");
 // let dotLinks = document.getElementsByClassName("dot");
+
 // let length = slides.length;
 // let currentSlide = 0;
 
