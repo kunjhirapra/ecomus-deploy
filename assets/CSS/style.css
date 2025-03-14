@@ -408,7 +408,8 @@
   display: flex;
   flex-wrap: wrap;
   background-color: #fff;
-  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.3);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
 }
 
 .nav-list li:hover .sub-menu {
@@ -448,7 +449,8 @@
   visibility: hidden;
   transition: all 0.3s;
   background-color: #fff;
-  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.07);
   pointer-events: none;
 }
 
@@ -1196,10 +1198,10 @@
 
 .input-area {
   border: 1px solid #666;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 1.4rem;
+  line-height: 1.6;
   border-radius: 3px;
-  padding: 14.5px 18px;
+  padding: 1.45rem 1.8rem;
   width: 100%;
   background: #fff;
   color: #333;

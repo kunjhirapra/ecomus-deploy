@@ -27,6 +27,7 @@
     font-size: 1.4rem;
     margin-bottom: 5rem;
   }
+
   .payment-option {
     max-width: 17%;
   }
@@ -408,6 +409,11 @@
   }
   .footer-container {
     grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
+  }
+
+  .}
+  .menu-list.sub-menu-2{
+    left: 110%;
   }
   .info-box-2-container {
     padding: 9rem 9rem 11rem 0;
